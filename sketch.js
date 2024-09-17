@@ -35,7 +35,7 @@ let textheight = 20;
 
 function preload() {
   for (let i = 0; i < imageFiles.length; i++) {
-    images[i] = [imageFiles[i].substring(0,imageFiles[i].lastIndexOf('.')),loadImage('data/' + imageFiles[i])];
+    images[i] = [imageFiles[i].substring(0,imageFiles[i].lastIndexOf('.')),loadImage('./data/' + imageFiles[i])];
   }
 }
 
